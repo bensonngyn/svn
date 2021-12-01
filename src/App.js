@@ -27,7 +27,7 @@ function Artwork() {
       </div>
       <div style = {{ textAlign: 'center' }}>
         <video id = "artwork" className='artwork' autoPlay loop muted>
-          <source src={artwork} type='video/mp4' />
+          <source src={'https://k7veu4em4t7x7booofdvvhbcksgh34zgepjh62i55uiomvluhn5a.arweave.net/V-pKcIzk_3-FznFHWpwiVIx98yYj0n9pHe0Q5lV0O3o'} type='video/mp4' />
         </video>
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
           <header className = "caption" style = {{textAlign: 'left', padding: '0 0 8px calc(25vw - 355px)'}}>
