@@ -1,0 +1,386 @@
+.App {
+  background-color: #101111;
+  padding-left: 25vw;
+  padding-right: 25vw;
+}
+
+::-webkit-scrollbar {
+  display:none;
+}
+
+.section {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  animation: fadeInLeft 1.3s;
+}
+
+.section-documentation {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  animation: fadeInLeft 1.3s;
+}
+
+.documentation {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.documentation-links {
+  animation: fadeInLeft 1.3s;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.artwork-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.artwork {
+  width: 710px;
+  height: 711px;
+  padding-bottom: 30px;
+  animation: fadeIn 2s;
+}
+
+.title {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  animation: fadeInLeft 1.3s;
+}
+
+.subtitle {
+  color: #B8B8B8;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  animation: fadeInLeft 1.3s;
+  padding-bottom: 50px;
+}
+
+.footer {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  animation: fadeInLeft 1.3s;
+}
+
+.caption {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  animation: fadeInLeft 1.3s;
+}
+
+.collab {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  animation: fadeInLeft 1.3s;
+}
+
+
+.edition {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  animation: fadeInLeft 1.3s;
+  padding: 0 calc(25vw - 355px) 8px 0;
+}
+
+.caption-grey {
+  color: #B8B8B8;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  animation: fadeInLeft 1.3s;
+}
+
+.caption-info {
+  color: #B8B8B8;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  animation: fadeInLeft 1.3s;
+}
+
+.about {
+  color: #B8B8B8;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  animation: fadeInLeft 1.3s;
+  text-align: justify;
+}
+
+hr {
+  background-color: #101111;
+  color: #6D6D6D;
+  border-top: solid 0.01px #101111;
+  border-left: solid 0.01px #101111;
+  border-right: solid 0.01px #101111;
+  border-bottom: solid 2px #6D6D6D;
+  height: 120px;
+  width: 100%;
+}
+
+.KLIMAindex {
+  animation: fadeInLeft 1.3s;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  color: white;
+}
+
+.KLIMA {
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+
+a.opensea {
+  color: #B8B8B8;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+a.documentation-link {
+  color: #B8B8B8;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+a.opensea:hover, a.documentation-link:hover {
+  color: #eeecec;
+}
+
+a.footer {
+  color: rgb(221, 215, 215);
+}
+
+a.footer:hover {
+  color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1; 
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    margin-left: -100px;
+  }
+  to {
+    opacity: 1; 
+    margin-left: 0px;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    margin-right: -100px;
+  }
+  to {
+    opacity: 1; 
+    margin-right: 0px;
+  }
+}
+
+@keyframes fadeInBottom {
+  from {
+    opacity: 1;
+    margin-top: -10000px;
+  }
+  to {
+    opacity: 1; 
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .App {
+    background-color: #101111;
+    padding-left: 9vw;
+    padding-right: 9vw;
+  }
+
+  .artwork {
+    width: 300px;
+    height: 300px;
+    padding-bottom: 30px;
+    animation: fadeIn 3s;
+  }
+
+  .title {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    animation: fadeInLeft 1.3s;
+    padding-bottom: 8px;
+  }
+
+  .subtitle {
+    color: #B8B8B8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    animation: fadeInLeft 1.3s;
+    padding-bottom: 28px;
+  }
+
+  .artwork-info {
+    display: inline;
+    justify-content: normal;
+  }
+
+  .caption {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    animation: fadeInLeft 1.3s;
+    text-align: left;
+  }
+
+  .edition {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+    padding: 12px 0 4px 0;
+  }
+
+  a.opensea {
+    color: #B8B8B8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .caption-info {
+    color: #B8B8B8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    animation: fadeInLeft 1.3s;
+    padding-top: 16px !important;
+  }
+
+  .about {
+    color: #B8B8B8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    animation: fadeInLeft 1.3s;
+    text-align: left;
+  }
+
+  .KLIMAindex {
+    animation: fadeInLeft 1.3s;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: white;
+    padding-bottom: 16px;
+    margin-top: -20px;
+  }
+
+  .KLIMA {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .documentation {
+    display: inline;
+    justify-content: normal; 
+  }
+
+  .documentation-info {
+    padding-bottom: 16px;
+  }
+  
+  .caption-grey {
+    color: #B8B8B8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    animation: fadeInLeft 1.3s;
+    padding-bottom: 50px;
+  }
+
+  .documentation-links {
+    animation: fadeInLeft 1.3s;
+    display: grid;
+    justify-content: normal;
+    padding-top: 0;
+  }
+
+  a.documentation-link {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .collab {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    animation: fadeInLeft 1.3s;
+  }
+
+  hr {
+    margin-top: -40px;
+  }
+
+  .section {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    animation: fadeInLeft 1.3s;
+  }
+
+  .section-documentation {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    animation: fadeInLeft 1.3s;
+    padding-bottom: 45px !important;
+  }
+
+  a.footer {
+    font-size: 16px;
+  }
+
+  .footer {
+    font-size: 16px;
+  }
+}
